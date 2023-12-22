@@ -8,7 +8,7 @@ import {
   CurrencyDollarIcon,
   UserCircleIcon,
 } from '@heroicons/react/24/outline';
-import { Button } from '../button';
+import { Button } from '@konstantinos-bit/nextjs-dashboard.ui.core';
 import { createInvoice } from '../../lib/actions';
 import { useFormState } from 'react-dom';
 

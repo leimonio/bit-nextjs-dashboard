@@ -12,16 +12,26 @@
     "dashboard-app": {
         "name": "dashboard-app",
         "scope": "",
-        "version": "",
+        "version": "0.0.1",
         "defaultScope": "konstantinos-bit.nextjs-dashboard",
         "mainFile": "index.ts",
-        "rootDir": "nextjs-dashboard/dashboard-app",
-        "config": {
-            "frontend.nextjs/nextjs-env@0.2.0": {},
-            "teambit.envs/envs": {
-                "env": "frontend.nextjs/nextjs-env"
-            }
-        }
+        "rootDir": "nextjs-dashboard/dashboard-app"
+    },
+    "ui/core": {
+        "name": "ui/core",
+        "scope": "",
+        "version": "0.0.1",
+        "defaultScope": "konstantinos-bit.nextjs-dashboard",
+        "mainFile": "index.ts",
+        "rootDir": "nextjs-dashboard/ui/core"
+    },
+    "ui/invoices": {
+        "name": "ui/invoices",
+        "scope": "",
+        "version": "0.0.1",
+        "defaultScope": "konstantinos-bit.nextjs-dashboard",
+        "mainFile": "index.ts",
+        "rootDir": "nextjs-dashboard/ui/invoices"
     },
     "$schema-version": "17.0.0"
 }

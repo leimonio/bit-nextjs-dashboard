@@ -1,3 +1,6 @@
+// bit-generated-eslint-config
 {
-  "extends": "next/core-web-vitals"
+  "extends": [
+    "./../../node_modules/.cache/.eslintrc.bit.a78122ee199687a8a14642f6a23a2498f1c7153f.json"
+  ]
 }

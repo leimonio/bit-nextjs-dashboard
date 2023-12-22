@@ -1,5 +1,8 @@
 import Image from 'next/image';
-import { UpdateInvoice, DeleteInvoice } from '../invoices/buttons';
+import {
+  UpdateInvoice,
+  DeleteInvoice,
+} from '@konstantinos-bit/nextjs-dashboard.ui.invoices';
 import InvoiceStatus from '../invoices/status';
 import { formatDateToLocal, formatCurrency } from '../../lib/utils';
 import { fetchFilteredInvoices } from '../../lib/data';

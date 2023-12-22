@@ -1,12 +1,12 @@
+import { Suspense } from 'react';
+import { Metadata } from 'next';
+import { CreateInvoice } from '@konstantinos-bit/nextjs-dashboard.ui.invoices';
 import Pagination from '../../ui/invoices/pagination';
 import Search from '../../ui/search';
 import Table from '../../ui/invoices/table';
-import { CreateInvoice } from '../../ui/invoices/buttons';
 import { lusitana } from '../../ui/fonts';
 import { InvoicesTableSkeleton } from '../../ui/skeletons';
-import { Suspense } from 'react';
 import { fetchInvoicesPages } from '../../lib/data';
-import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: 'Invoices',
